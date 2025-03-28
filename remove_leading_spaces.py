@@ -1,7 +1,7 @@
 text = input("Enter text: ")
 
 index = 0
-while index < len(tex) and text[index] == " ":
+while index < len(text) and text[index] == " ":
   index +=1
 
 trimmed_text = text[index:]
