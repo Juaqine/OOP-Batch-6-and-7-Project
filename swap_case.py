@@ -10,3 +10,5 @@ for char in text:
         swapped_text += chr(ord(char) - 32)
     else:
         swapped_text += char
+
+print("Output:", swapped_text)
