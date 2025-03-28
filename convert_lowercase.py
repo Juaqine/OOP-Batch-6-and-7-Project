@@ -4,4 +4,5 @@ text = input("Enter text: ")
 
 lowercase_text = ""
 for char in text:
-  if 'A' <= char <= 'Z': 
+  if 'A' <= char <= 'Z':
+    lowercase_text += chr(ord(char) + 32)
