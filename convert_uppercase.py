@@ -6,4 +6,5 @@ uppercase_text = ""
 for char in text:
   if 'a' <= char <= 'z':
     uppercase_text += chr(ord(char) - 32)
-    
+  else:
+    uppercase_text += char
