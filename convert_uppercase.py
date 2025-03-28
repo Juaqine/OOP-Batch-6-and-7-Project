@@ -8,3 +8,5 @@ for char in text:
     uppercase_text += chr(ord(char) - 32)
   else:
     uppercase_text += char
+
+print("Output:", uppercase_text)
