@@ -5,3 +5,5 @@ space = int(input("Enter the total width: "))
 
 if len(text) >= width:
   result = text 
+else:
+  result = text + " " * (width - len(text))
