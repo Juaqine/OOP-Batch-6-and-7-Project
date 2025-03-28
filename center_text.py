@@ -10,3 +10,5 @@ else:
     left_spaces = total_spaces // 2
     right_spaces = total_spaces - left_spaces
     result = " " * left_spaces + text + " " * right_spaces
+
+print("Output:", f'"{result}"')
