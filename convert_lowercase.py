@@ -8,3 +8,5 @@ for char in text:
     lowercase_text += chr(ord(char) + 32)
   else:
     lowercase_text += char
+
+print("Output:", lowercase_text)
