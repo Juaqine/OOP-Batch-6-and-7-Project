@@ -3,3 +3,6 @@
 text = input("Enter text: ")
 
 swapped_text = ""
+for char in text:
+    if 'A' <= char <= 'Z':
+        swapped_text += chr(ord(char) + 32)
