@@ -5,3 +5,6 @@ text = input("Enter text: ")
 if text:
     first_char = text[0]  # Get the first character
     rest = text[1:]
+
+if 'a' <= first_char <= 'z':
+        first_char = chr(ord(first_char) - 32)
