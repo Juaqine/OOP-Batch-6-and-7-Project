@@ -1,4 +1,10 @@
 #Prog09. capitalize() makes the first letter of the string, capital letter. And all other letter in small case. Create a program that do the same functionality without using capitalize() function.
+#Ask the user for input
+#Get first character
+#Get the rest of the characters
+#Convert first character to uppercase
+#Convert the rest of the characters to lwoercase
+#Print output
 
 text = input("Enter a string: ")
 
