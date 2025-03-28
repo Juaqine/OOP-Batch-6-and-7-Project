@@ -10,3 +10,5 @@ else:
     result = f'The text ENDS with "{suffix}".'
   else:
     result = f'The text does NOT end with "{suffix}".'
+
+print("Output:", result)
