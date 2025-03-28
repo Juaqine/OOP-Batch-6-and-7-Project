@@ -1,3 +1,8 @@
+#Ask the user for input
+#Find the first non-space character
+#Slice the string 
+#Print output
+
 text = input("Enter text: ")
 
 index = 0
