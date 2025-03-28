@@ -1,3 +1,4 @@
+#Prog01. lstrip() remove the space characters at the beginning of the string. Create a program that do the same functionality without using lstrip() function.
 #Ask the user for input
 #Find the first non-space character
 #Slice the string 
