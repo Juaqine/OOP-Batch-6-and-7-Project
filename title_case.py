@@ -9,3 +9,6 @@ for word in words:
     if word:
         first_char = word[0] 
         rest = word[1:]
+        
+        if 'a' <= first_char <= 'z':
+            first_char = chr(ord(first_char) - 32)
