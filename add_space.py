@@ -7,3 +7,5 @@ if len(text) >= width:
   result = text 
 else:
   result = text + " " * (width - len(text))
+
+print("Output:", f'"{result}"')
