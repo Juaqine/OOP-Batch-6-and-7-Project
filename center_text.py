@@ -2,3 +2,6 @@
 
 text = input("Enter text:")
 space = int(input("Enter the total width: "))
+
+if len(text) >= width:
+    result = text
