@@ -6,3 +6,5 @@ lowercase_text = ""
 for char in text:
   if 'A' <= char <= 'Z':
     lowercase_text += chr(ord(char) + 32)
+  else:
+    lowercase_text += char
