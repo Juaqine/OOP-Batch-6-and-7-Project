@@ -15,3 +15,5 @@ for word in words:
             
         new_word = first_char + "".join(chr(ord(c) + 32) if 'A' <= c <= 'Z' else c for c in rest)
         new_words.append(new_word)
+
+title_case_text = " ".join(new_words)
