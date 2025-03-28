@@ -3,3 +3,9 @@
 text = input("Enter text: ")
 
 words = text.split()
+
+new_words = []
+for word in words:
+    if word:
+        first_char = word[0] 
+        rest = word[1:]
