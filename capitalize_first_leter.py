@@ -8,3 +8,5 @@ if text:
 
 if 'a' <= first_char <= 'z':
         first_char = chr(ord(first_char) - 32)
+
+new_text = first_char + "".join(chr(ord(c) + 32) if 'A' <= c <= 'Z' else c for c in rest)
