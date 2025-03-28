@@ -17,3 +17,5 @@ for word in words:
         new_words.append(new_word)
 
 title_case_text = " ".join(new_words)
+
+print("Output:", title_case_text)
