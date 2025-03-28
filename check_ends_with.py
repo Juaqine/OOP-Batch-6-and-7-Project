@@ -3,3 +3,4 @@
 text = input("Enter text: ")
 suffix = input("Enter suffix to check: ")
 
+if len(suffix) > len(text):
