@@ -7,3 +7,6 @@ if len(suffix) > len(text):
   result = f'The text does NOT end with "{suffix}".'
 else:
   if text[-len(suffix):] == suffix:
+    result = f'The text ENDS with "{suffix}".'
+  else:
+    result = f'The text does NOT end with "{suffix}".'
