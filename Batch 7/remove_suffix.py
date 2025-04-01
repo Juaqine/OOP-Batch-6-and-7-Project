@@ -5,3 +5,5 @@ suffix = input("Enter suffix to remove: ")
 
 if text.endswith(suffix):
     text = text[:-len(suffix)]
+
+print(f"Modified: '{text}'")
