@@ -2,3 +2,5 @@
 
 text = input("Enter text: ")
 char = input("Enter the character to count: ")
+
+print(text.split(char).__len__() - 1)
