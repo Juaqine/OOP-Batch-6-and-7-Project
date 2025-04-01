@@ -2,3 +2,8 @@
 
 text = input("Enter your text: ")
 char = input("Enter the character to find: ")
+
+for i in range(len(text)):
+    if text[i] == char:
+        print(i)
+        break
