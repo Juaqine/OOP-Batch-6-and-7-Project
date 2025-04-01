@@ -1,7 +1,7 @@
 #Prog01. rstrip() remove the space characters at the end of the string. Create a program that do the same functionality without using rstrip() function.
 
 #Ask the user for input
-#Find non-space charact
+#Find non-space character
 #Print output
 
 text = input("Enter text: ")
