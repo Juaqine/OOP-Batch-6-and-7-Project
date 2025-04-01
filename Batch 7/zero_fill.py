@@ -2,3 +2,5 @@
 
 text = input("Enter text: ")
 width = int(input("Enter the desired width: "))
+
+print('0' * (width - len(text)) + text)
