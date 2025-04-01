@@ -2,3 +2,5 @@
 
 text = input("Enter text: ")
 char = input("Enter the character to find: ")
+
+for i in range(len(text)-1, -1, -1):
