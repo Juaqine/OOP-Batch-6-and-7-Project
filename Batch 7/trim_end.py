@@ -5,3 +5,6 @@ text = input("Enter a string: ")
 i = len(text) - 1
 while i >= 0 and text[i] == ' ':
     i -= 1
+
+print(f"Original: '{text}'")
+print(f"Trimmed: '{text[:i+1]}'")
