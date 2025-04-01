@@ -2,6 +2,6 @@
 
 text = input("Enter text: ")
 
-lower = all('a' <= c <= 'z' for c in text if c.isalpha())
-
-print(f"Is lowercase: {lower}")
+lower_text = "".join(chr(ord(c) + 32)
+    if 'A' <= c <= 'Z'
+    else c for c in text)
