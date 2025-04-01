@@ -4,7 +4,7 @@
 #Find non-space character
 #Print output
 
-text = input("Enter a string: ")
+text = input("Enter text: ")
 
 i = len(text) - 1
 while i >= 0 and text[i] == ' ':
