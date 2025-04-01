@@ -3,3 +3,5 @@
 text = input("Enter text: ")
 
 lower = all('a' <= c <= 'z' for c in text if c.isalpha())
+
+print(f"Is lowercase: {lower}")
